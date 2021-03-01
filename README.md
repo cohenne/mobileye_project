@@ -2,6 +2,7 @@
 Team Members:
 * Nechama Cohen
 * Bracha Ginsberger
+* Tova Tikochinsky 
 
 
 
