@@ -24,7 +24,7 @@ def init():
 
 
 def run():
-    args, tfl_manager, frame, offset = init()
+    _, tfl_manager, frame, offset = init()
 
     for index in range(len(frame)):
         tfl_manager.on_frame(frame[index], offset + index)

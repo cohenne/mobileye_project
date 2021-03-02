@@ -9,7 +9,7 @@ def calc_TFL_dist(prev_container, curr_container, focal, pp):
         print('tz = ', tZ)
     elif norm_prev_pts.size == 0:
         print('no prev points')
-    elif norm_prev_pts.size == 0:
+    elif norm_curr_pts.size == 0:
         print('no curr points')
     else:
         curr_container.corresponding_ind, curr_container.traffic_lights_3d_location, curr_container.valid = calc_3D_data(norm_prev_pts, norm_curr_pts, R, foe, tZ)

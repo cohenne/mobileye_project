@@ -28,7 +28,7 @@ def tfl_model():
         model.add(Activation('relu'))
     
     def spatial_layer(count, filters): 
-        for i in range(count):
+        for _ in range(count):
             conv_bn_relu(filters,kernel_size=(3,3))
         conv_bn_relu(filters, kernel_size=(3,3),strides=(2,2))
     

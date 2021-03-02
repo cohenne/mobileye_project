@@ -19,7 +19,7 @@ class TFLMan:
         self.__pp = self.__pkl_data['principle_point']
         self.__focal = self.__pkl_data['flx']
         self.__prev_frame = None
-        self.__model = load_model("../data/model.h5")
+        self.__model = load_model("data/model.h5")
 
     def on_frame(self, current_frame, frame_index):
         # phase 1
